@@ -1,6 +1,6 @@
-# Next-Word-Prediction
+# WordFlow — Next Word Prediction
 # Overview
-This project is a Natural Language Processing (NLP) model that predicts the next word in a given sequence of text. Built as part of my Week 1 project at AB Infotech Solution, this model demonstrates key concepts of NLP and machine learning.
+This project is is an NLP project that I developed to predict the next word based on the given text sequence. I first performed text preprocessing and tokenization, then converted the text into sequences and applied padding. I used TensorFlow and Keras to build an NLP model with an Embedding layer and LSTM layer. Finally, the model predicts the next word using the output probabilities.
 # Features
 - Predicts the next word based on the input sequence of text.
 - Implements efficient text preprocessing techniques.
